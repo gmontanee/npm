@@ -40,7 +40,7 @@ header {
   max-width:1000px;
   margin:0 auto;
   padding:0 40px;
-  background-image: url("images/city-scape.svg");
+  background-image: url("city-scape.svg");
 }
 #browser {
   width: 100%;
@@ -150,7 +150,7 @@ header div {
 /*Seccio 2*/
 
 #secc2 {
-  background-image: url("images/forklift.svg");
+  background-image: url("forklift.svg");
   background-size: cover;
   min-height:280px;
   color: white;

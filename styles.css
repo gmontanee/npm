@@ -1,0 +1,192 @@
+body{
+  background-color: rgb(31, 82, 111);
+  text-align:center;
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+a {text-decoration: none;}
+
+.container {max-width:1000px;margin:0 auto;padding:0 40px;}
+
+/*nav*/
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10 px 15px;
+  height: 40px;
+}
+nav a {color: rgba(255,255,255,0.8);}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left {
+  display: inline;
+}
+.heart {margin-right:20px;}
+
+
+
+/*Header*/
+
+header {
+  color: white;
+  max-width:1000px;
+  margin:0 auto;
+  padding:0 40px;
+  background-image: url("images/city-scape.svg");
+}
+#browser {
+  width: 100%;
+  padding: 10px;
+}
+#search, #login {
+  display: inline-block;
+}
+header div {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgb(32, 101, 136);
+}
+#logo {
+  width:100px;
+  height:auto;
+  margin-right:10px;
+}
+#bear {
+  width:25px;
+  height:auto;
+  display:inline-block;
+  margin-top:5px;
+}
+#search {
+  width:calc(20%);
+}
+#search form {
+  display:inline-block;
+  width:calc(100% - 40px);
+  float:left;
+}
+#search input {
+  padding:1px 10px;
+  height:35px;
+  background-color: rgb(31, 82, 111);
+  border:1px solid rgb(68, 104, 133);
+  width:100%;
+  display:inline-block;
+}
+#search button {
+  color:white;
+  height:39px;
+  width:39px;
+  background-color: rgb(31, 82, 111);
+  border:1px solid rgb(68, 104, 133);
+  color:border:1px solid rgb(68, 104, 133);
+  display:inline-block;
+  float:right;
+}
+#login {
+  width:170px;
+  float:right;
+  color:white;
+  height:40px;
+}
+#login a {
+  color: white;
+}
+#Text {
+  color:white;
+  min-height: 300px;
+  max-width: 500px;
+  text-align: left;
+  float: left;
+}
+#Text p {
+  margin:40px 0 60px 0;
+}
+#button1 {
+  background-color: rgb(240, 146, 51); 
+}
+
+
+/*Seccio 1*/
+
+#secc1 {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  padding:80px 0;
+  display:block;
+  min-height:280px;
+  text-align: left;
+}
+#imag {
+  width: 40%;
+  float: left;
+}
+#tsecc1 {
+  width: 40%;
+  display: inline-block;
+  margin-left: 10%; 
+}
+#secc1 ul {
+  line-height: 2;
+  margin:10px 0 40px 0;
+}
+#secc1 a {
+  color: white;
+}
+#secc1 button {
+  background-color:rgb(203, 56, 55);
+}
+
+
+
+/*Seccio 2*/
+
+#secc2 {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  min-height:280px;
+  color: white;
+  position: relative;
+  display: block;
+  padding:50px 0 80px 0;
+  margin:auto;
+  text-align: left;
+
+}
+#secc2 button {
+  background-color: rgb(49, 68, 88);
+  color: white;
+}
+
+
+
+/*Seccio 3*/
+
+#secc3 {
+  background-color: white;
+  color: rgb(83, 88, 98);
+  padding: 50px 0;
+}
+#secc3 img {
+  display: block;
+  margin: 10 auto;
+}
+#secc3 h2{color:rgb(135, 145, 156);}
+.bottom {
+  width: 30%;
+  vertical-align: top;
+  padding: 0 10px;
+  display: inline-block;
+}
+.bottom a {
+  color: rgb(208, 74, 73);
+}
+.bottom p {color: rgb(135, 145, 156);}
